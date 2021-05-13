@@ -1,22 +1,29 @@
 {% extends "site.html" %}
 
+{% block css_section %}home{% endblock %}
+
 {% block content %}
-  <h1>Hi, I'm Tales!</h1>
+  <section class="s-introduction">
+    <h1>Hi, <br/>there!</h1>
 
-  <p>I'm a Brazilian software developer living in Berlin. I'm currently working as an Engineering Manager for <a href="https://heyjobs.co" target="_blank">HeyJobs</a></p>
+    <p>I'm Tales, a Brazilian software developer living in Berlin. I'm currently working as an Engineering Manager for <a href="https://heyjobs.co" target="_blank">HeyJobs</a>.</p>
+  </section>
 
-  <p>Here are some posts, in case you're interested in that:<p>
+  <section class="s-blogroll">
+    <h2>Some posts, in case you're interested:</h2>
 
-  <ul>
-    {% set blog = get_section(path="blog/_index.md") %}
-    {% for page in blog.pages %}
-      <li><a href="{{ page.permalink }}">{{ page.title }}</a></li>
-    {% endfor %}
-  </ul>
+    <ul>
+      {% set blog = get_section(path="blog/_index.md") %}
+      {% for page in blog.pages %}
+        <li><a href="{{ page.permalink }}">{{ page.title }}</a></li>
+      {% endfor %}
+    </ul>
 
-  <p><a href="/blog">Look at the full archive</a></p>
+    <p><a href="/blog"><small><span role="presentation">&raquo;</span> Look at the full archive</a></small></p>
+  </section>
 
-  <h2>Contact</h2>
-
-  <p>Feel free to reach out at <a href="mailto:hi@tales.dev">hi@tales.dev</a> :)</p>
+  <section class="s-contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out at <a href="mailto:hi@tales.dev">hi@tales.dev</a> :)</p>
+  </section>
 {% endblock content %}

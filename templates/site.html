@@ -8,7 +8,7 @@
   <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}" />
   <link rel="stylesheet" href="{{ get_url(path="site.css", trailing_slash=false) | safe }}">
 </head>
-<body>
+<body class="p-{% block css_section %}default{% endblock %}">
   <header id="main-header">
     {% if current_path != "/" %}
       <nav>
