@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ lang }}">
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
   <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}" />
+  <link rel="stylesheet" href="{{ get_url(path="site.css", trailing_slash=false) | safe }}">
 </head>
 <body>
+  <header id="main-header">
+    {% if current_path != "/" %}
+      <nav>
+        <ul>
+          <li>
+            <a href="{{ config.base_url }}" title="Back to home page">Back to home</a>
+          </li>
+          {% if current_url != get_url(path="@/blog/_index.md", trailing_slash=true) %}
+            <li>
+              <a href="{{ get_url(path="@/blog/_index.md", trailing_slash=true) }}" title="Check out my blog posts">blog</a>
+            </li>
+          {% endif %}
+        </ul>
+      </nav>
+    {% endif %}
+  </header>
+
   {% block content %}
   {% endblock content %}
 </body>
