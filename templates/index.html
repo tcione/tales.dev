@@ -4,9 +4,9 @@
 
 {% block content %}
   <section class="s-introduction">
-    <h1>Hi, <br/>there!</h1>
+    <h1>Hi, <br role="presentation"/>there!</h1>
 
-    <p>I'm Tales, a Brazilian software developer living in Berlin. I'm currently working as an Engineering Manager for <a href="https://heyjobs.co" target="_blank">HeyJobs</a>.</p>
+    <p>I'm Tales, a Brazilian software developer living in Berlin. I'm currently working as an Engineering Manager for <a href="https://heyjobs.co" title="Visite the HeyJobs home page" target="_blank">HeyJobs</a>.</p>
   </section>
 
   <section class="s-blogroll">
@@ -15,15 +15,15 @@
     <ul>
       {% set blog = get_section(path="blog/_index.md") %}
       {% for page in blog.pages %}
-        <li><a href="{{ page.permalink }}">{{ page.title }}</a></li>
+        <li><a href="{{ page.permalink }}" title="A blog post">{{ page.title }}</a></li>
       {% endfor %}
     </ul>
 
-    <p><a href="/blog"><small><span role="presentation">&raquo;</span> Look at the full archive</a></small></p>
+    <p><a href="{{ get_url(path="@/blog/_index.md", trailing_slash=true) }}" target="Get access to a list with all my blog posts"><small><span role="presentation">&raquo;</span> Look at the full archive</a></small></p>
   </section>
 
   <section class="s-contact">
     <h2>Contact</h2>
-    <p>Feel free to reach out at <a href="mailto:hi@tales.dev">hi@tales.dev</a> :)</p>
+    <p>Feel free to reach out at <a href="mailto:hi@tales.dev" title="Send me a friendly email">hi@tales.dev</a> :)</p>
   </section>
 {% endblock content %}
