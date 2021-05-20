@@ -4,6 +4,10 @@ description = "A software developer from São Paulo living in Berlin"
 default_language = "en"
 compile_sass = true
 build_search_index = false
+taxonomies = [
+  { name = "zettelkasten-tags", feed = true}
+]
+
 
 [markdown]
 highlight_code = false
