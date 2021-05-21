@@ -1,4 +1,4 @@
 +++
 transparent = true
-paginate_by = false
+paginate_by = 1
 +++
