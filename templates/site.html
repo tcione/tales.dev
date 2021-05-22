@@ -8,9 +8,10 @@
   <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}" />
   <link rel="stylesheet" href="{{ get_url(path="site.css", trailing_slash=false) | safe }}">
 </head>
-<body class="p-{% block css_section %}default{% endblock %}">
+<body class="{% block body_classes %}p-default{% endblock %}">
   {% block main_header %}
-    <header id="main-header">
+    <header id="s-main-header">
+      <div class="u-wrapper">
         <nav>
           <ul>
             <li>
@@ -24,9 +25,12 @@
             </li>
           </ul>
         </nav>
+      </div>
     </header>
   {% endblock main_header %}
 
-  {% block content %}{% endblock content %}
+  <main>
+    {% block content %}{% endblock content %}
+  </main>
 </body>
 </html>
