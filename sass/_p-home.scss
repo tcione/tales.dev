@@ -27,11 +27,16 @@
   ul {
     margin-top: 0;
     margin-bottom: var(--size200);
-    padding-left: var(--size200);
+    padding-left: 0;
+    list-style: none;
   }
 
   li::marker {
-    content: "- ";
+    //content: "- ";
+  }
+
+  li {
+    line-height: 1.4;
   }
 
   section {
@@ -61,7 +66,13 @@
     box-shadow: var(--size100) var(--size100) 0 var(--c-orange400);
   }
 
+  .s-zettelkasten {
+    box-shadow: var(--size100) var(--size100) 0 var(--c-blue600);
+  }
+
   .s-contact {
+    margin-left: var(--size400);
+    margin-right: var(--size200);
     box-shadow: var(--size100) var(--size100) 0 var(--c-yellow400);
   }
 }
@@ -96,6 +107,14 @@
     .s-blogroll {
       margin-left: 50%;
       margin-top: calc(-1 * var(--size600));
+      z-index: 4;
+    }
+
+    .s-zettelkasten {
+      margin-left: 30%;
+      margin-right: 20%;
+      margin-top: calc(-1 * var(--size600));
+      padding-top: var(--size500);
       z-index: 3;
     }
 
@@ -135,11 +154,13 @@
     }
 
     .s-blogroll {
-      margin-top: calc(-1 * var(--size1200));
+      margin-top: calc(-1 * var(--size2200));
     }
 
     .s-contact {
-      margin-left: 20%;
+      margin-left: 60%;
+      margin-right: 0;
+      padding-top: var(--size500);
     }
   }
 }

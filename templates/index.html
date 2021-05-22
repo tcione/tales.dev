@@ -14,15 +14,21 @@
       <h2>Some posts, in case you're interested:</h2>
 
       <ul>
-        {% set blog = get_section(path="blog/_index.md", paginate_by=1) %}
+        {% set blog = get_section(path="blog/_index.md") %}
         {% for page in blog.pages %}
           {# TODO: Fix this weird paging hack #}
           {% if loop.index > 5 %}{% break %}{% endif %}
-          <li><a href="{{ page.permalink }}" title="A blog post">{{ page.title }}</a></li>
+          <li><a href="{{ page.permalink }}" title="{{ page.summary }}">{{ page.title }}</a></li>
         {% endfor %}
       </ul>
 
-      <p><a href="{{ get_url(path="@/blog/_index.md", trailing_slash=true) }}" target="Get access to a list with all my blog posts"><small><span role="presentation">&raquo;</span> Look at the full archive</a></small></p>
+      <p><small><a href="{{ get_url(path="@/blog/_index.md", trailing_slash=true) }}" title="Get access to a list with all my blog posts, completely free 😄">Look at the full archive<span role="presentation"> &raquo;</span></a></small></p>
+    </section>
+
+    <section class="s-zettelkasten">
+      <h2>I'm trying to learn out in the open, if you'd like to take a peek at my learning notes, you can check out my <a href="{{ get_url(path="@/zettelkasten/_index.md", trailing_slash=true) }}" title="Check out my fancy Zettelkasten entries">zettelkasten</a>.</h2>
+
+      <p><small><a href="{{ get_url(path="@/zettelkasten/_index.md", trailing_slash=true) }}" title="Another entry path for my notes. Yeah, I kind of like them&hellip;">Visit my Zettelkasten<span role="presentation"> &raquo;</span></a></small></p>
     </section>
 
     <section class="s-contact">
