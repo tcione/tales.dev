@@ -9,24 +9,24 @@
   <link rel="stylesheet" href="{{ get_url(path="site.css", trailing_slash=false) | safe }}">
 </head>
 <body class="p-{% block css_section %}default{% endblock %}">
-  <header id="main-header">
-    {% if current_path != "/" %}
-      <nav>
-        <ul>
-          <li>
-            <a href="{{ config.base_url }}" title="Back to home page">Back to home</a>
-          </li>
-          {% if current_url != get_url(path="@/blog/_index.md", trailing_slash=true) %}
+  {% block main_header %}
+    <header id="main-header">
+        <nav>
+          <ul>
+            <li>
+              <a href="{{ config.base_url }}" title="Back to home page">tales.dev</a>
+            </li>
             <li>
               <a href="{{ get_url(path="@/blog/_index.md", trailing_slash=true) }}" title="Check out my blog posts">blog</a>
             </li>
-          {% endif %}
-        </ul>
-      </nav>
-    {% endif %}
-  </header>
+            <li>
+              <a href="{{ get_url(path="@/zettelkasten/_index.md", trailing_slash=true) }}" title="My learning notes">zettelkasten</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+  {% endblock main_header %}
 
-  {% block content %}
-  {% endblock content %}
+  {% block content %}{% endblock content %}
 </body>
 </html>

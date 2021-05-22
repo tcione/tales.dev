@@ -1,5 +1,7 @@
 {% extends "site.html" %}
 
+{% block css_section %}section{% endblock %}
+
 {% block title %}
   {{ section.title }}
 {% endblock title %}
@@ -7,9 +9,11 @@
 {% block content %}
   <h1>{{ section.title }}</h1>
 
+  <p>{{ section.description }}</p>
+
   <ul>
     {% for page in paginator.pages %}
-      <li><a href="{{ page.permalink }}">{{ page.title }}</a></li>
+      <li><a href="{{ page.permalink }}" title="{{ page.summary }}">{{ page.title }}</a></li>
     {% endfor %}
   </ul>
 {% endblock content %}
