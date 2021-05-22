@@ -6,6 +6,8 @@
 
 @media all and (min-width: 45em) {
   .u-wrapper {
+    padding-left: var(--size200);
+    padding-right: var(--size200);
     margin-left: auto;
     margin-right: auto;
   }
