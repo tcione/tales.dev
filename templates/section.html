@@ -3,7 +3,7 @@
 {% block body_classes %}p-default{% endblock %}
 
 {% block title %}
-  {{ section.title }}
+  {{ section.title }} | Tales Cione
 {% endblock title %}
 
 {% block content %}
@@ -12,9 +12,18 @@
 
     <p>{{ section.description }}</p>
 
-    <ul>
+    <ul class="c-article-list">
       {% for page in paginator.pages %}
-        <li><a href="{{ page.permalink }}" title="{{ page.summary }}">{{ page.title }}</a></li>
+        <li>
+          {% if page.date %}
+            <time datetime="{{ page.date }}">{{ page.date | date }}</time>
+          {% endif %}
+          <a href="{{ page.permalink }}" title="{{ page.summary }}">
+            <h2>{{ page.title }}</h2>
+          </a>
+
+          <p>{{ page.description }}</p>
+        </li>
       {% endfor %}
     </ul>
   </div>

@@ -40,8 +40,9 @@ html {
 
 body {
   font-size: 1.8rem;
-  line-height: 1.2;
+  line-height: 1.4;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  color: #333;
 }
 
 a {
@@ -64,5 +65,106 @@ a {
     &:hover {
       color: #FFF;
     }
+  }
+}
+
+.c-article-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  column-gap: var(--size300);
+  grid-template-columns: [left] 1fr [right] 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "post1  ."
+    "post1  ."
+    "post1  post2"
+    ".      post2"
+    "post3  post2"
+    "post3  ."
+    "post3  post4"
+    ".      post4"
+    "post5  post4"
+    "post5  ."
+    "post5  post6"
+    ".      post6"
+    "post7  post6"
+    "post7  ."
+    "post7  post8"
+    ".      post8"
+    "post9  post8"
+    "post9  ."
+    "post9  post10"
+    ".      post10"
+    "post11 post10"
+    "post11 ."
+    "post11 post12"
+    ".      post12"
+    "post13 post12"
+    "post13 ."
+    "post13 post14"
+    ".      post14"
+    "post15 post14"
+    "post15 ."
+    "post15 post16"
+    ".      post16"
+    "post17 post16"
+    "post17 ."
+    "post17 post18"
+    ".      post18"
+    "post19 post18"
+    "post19 ."
+    "post19 post20"
+    ".      post20"
+    ".      post20";
+
+  li {
+    grid-column: 1 / 2;
+    padding-left: var(--size100);
+    padding-top: var(--size100);
+    padding-bottom: var(--size100);
+    padding-right: var(--size100);
+    box-shadow: calc(-1 * var(--size100)) 0 0 #555;
+  }
+
+  li:nth-child(1) { grid-area: post1; }
+  li:nth-child(2) { grid-area: post2; }
+  li:nth-child(3) { grid-area: post3; }
+  li:nth-child(4) { grid-area: post4; }
+  li:nth-child(5) { grid-area: post5; }
+  li:nth-child(6) { grid-area: post6; }
+  li:nth-child(7) { grid-area: post7; }
+  li:nth-child(8) { grid-area: post8; }
+  li:nth-child(9) { grid-area: post9; }
+  li:nth-child(10) { grid-area: post10; }
+  li:nth-child(11) { grid-area: post11; }
+  li:nth-child(12) { grid-area: post12; }
+  li:nth-child(13) { grid-area: post13; }
+  li:nth-child(14) { grid-area: post14; }
+  li:nth-child(15) { grid-area: post15; }
+  li:nth-child(16) { grid-area: post16; }
+  li:nth-child(17) { grid-area: post17; }
+  li:nth-child(18) { grid-area: post18; }
+  li:nth-child(19) { grid-area: post19; }
+  li:nth-child(20) { grid-area: post20; }
+
+  time {
+    color: #777;
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  h2 {
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    margin: 0;
+    color: #777;
+    font-size: 1.2rem;
   }
 }

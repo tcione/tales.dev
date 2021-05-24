@@ -20,23 +20,11 @@
     margin-bottom: var(--size100);
   }
 
-  p {
-    line-height: 1.4;
-  }
-
   ul {
     margin-top: 0;
     margin-bottom: var(--size200);
     padding-left: 0;
     list-style: none;
-  }
-
-  li::marker {
-    //content: "- ";
-  }
-
-  li {
-    line-height: 1.4;
   }
 
   section {
