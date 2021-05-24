@@ -21,10 +21,18 @@
           <a href="{{ page.permalink }}" title="{{ page.summary }}">
             <h2>{{ page.title }}</h2>
           </a>
-
-          <p>{{ page.description }}</p>
         </li>
       {% endfor %}
     </ul>
+
+
+    <nav class="c-pagination">
+      {% if paginator.previous %}
+        <a class="c-pagination__previous" href="{{ paginator.previous }}">Previous</a>
+      {% endif %}
+      {% if paginator.next %}
+        <a class="c-pagination__next" href="{{ paginator.next }}">Next</a>
+      {% endif %}
+    </nav>
   </div>
 {% endblock content %}
