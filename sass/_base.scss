@@ -76,17 +76,23 @@ a {
   li {
     display: block;
     padding-left: 0;
-    padding-top: var(--size200);
-    padding-bottom: var(--size100);
+    padding-top: var(--size300);
+    padding-bottom: var(--size300);
     padding-right: var(--size100);
+
+    border-bottom: 1px solid #DDD;
+  }
+
+  a {
+    text-decoration: none;
   }
 
   time {
     color: #777;
     display: block;
     font-size: 1.2rem;
-    font-weight: 700;
     line-height: 1;
+    margin-bottom: var(--size100);
     position: relative;
     z-index: 2;
   }
