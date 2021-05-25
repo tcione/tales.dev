@@ -7,8 +7,16 @@
 {% endblock title %}
 
 {% block content %}
-  <article>
-    <h1>{{ page.title }}</h1>
-    <div>{{ page.content | safe }}</div>
+  <article class="c-main-article">
+    <div class="c-main-article__wrapper">
+      <header>
+        {% if page.date %}
+          <time datetime="{{ page.date }}">{{ page.date | date }}</time>
+        {% endif %}
+        <h1>{{ page.title }}</h1>
+      </header>
+
+      <div>{{ page.content | safe }}</div>
+    </div>
   </article>
 {% endblock content %}
