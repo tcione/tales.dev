@@ -37,6 +37,10 @@
     padding-left: var(--size200);
     padding-right: var(--size200);
     padding-top: var(--size200);
+
+    p {
+      font-size: 1.6rem;
+    }
   }
 
   .s-introduction {
@@ -142,7 +146,7 @@
     }
 
     .s-blogroll {
-      margin-top: calc(-1 * var(--size2200));
+      margin-top: calc(-1 * var(--size1300));
     }
 
     .s-contact {

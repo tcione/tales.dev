@@ -13,29 +13,15 @@
     </section>
 
     <section class="s-blogroll">
-      <h2>Some posts, in case you're interested:</h2>
-
-      <ul>
-        {% set blog = get_section(path="blog/_index.md") %}
-        {% for page in blog.pages %}
-          {# TODO: Fix this weird paging hack #}
-          {% if loop.index > 5 %}{% break %}{% endif %}
-          <li><a href="{{ page.permalink }}" title="{{ page.summary }}">{{ page.title }}</a></li>
-        {% endfor %}
-      </ul>
-
-      <p><small><a href="{{ get_url(path="@/blog/_index.md", trailing_slash=true) }}" title="Get access to a list with all my blog posts, completely free 😄">Look at the full archive<span role="presentation"> &raquo;</span></a></small></p>
+      <p>In case you're interested, I write some things at <a href="{{ get_url(path="@/blog/_index.md", trailing_slash=true) }}" title="Get access to a list with all my blog posts, completely free 😄">my blog</a>.</p>
     </section>
 
     <section class="s-zettelkasten">
-      <h2>I'm trying to learn out in the open, if you'd like to take a peek at my learning notes, you can check out my <a href="{{ get_url(path="@/zettelkasten/_index.md", trailing_slash=true) }}" title="Check out my fancy Zettelkasten entries">zettelkasten</a>.</h2>
-
-      <p><small><a href="{{ get_url(path="@/zettelkasten/_index.md", trailing_slash=true) }}" title="Another entry path for my notes. Yeah, I kind of like them&hellip;">Visit my Zettelkasten<span role="presentation"> &raquo;</span></a></small></p>
+      <p>I'm trying to learn out in the open, if you'd like to take a peek at my learning notes, you can check out my <a href="{{ get_url(path="@/zettelkasten/_index.md", trailing_slash=true) }}" title="Check out my fancy Zettelkasten entries">zettelkasten</a>.</p>
     </section>
 
     <section class="s-contact">
-      <h2>Contact</h2>
-      <p>Feel free to reach out at <a href="mailto:hi@tales.dev" title="Send me a – hopefully – friendly email">hi@tales.dev</a> :)</p>
+      <p>Feel free to reach out at <a href="mailto:hi@tales.dev" title="Send me a – hopefully – friendly email">hi@tales.dev</a>, <a href="https://www.linkedin.com/in/tcione" title="LinkedIN is a weird network, but if that's your thing, let's go">LinkedIN</a> or <a href="" title="I mostly tweet in portuguese. DMs are open, though.">Twitter</a> :)</p>
     </section>
   </div>
 {% endblock content %}
