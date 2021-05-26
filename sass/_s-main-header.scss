@@ -1,6 +1,6 @@
 .s-main-header {
   nav {
-    border-bottom: 1px solid var(--c-purple600);
+    border-bottom: 0.1rem solid var(--c-purple600);
   }
 
   ul {
@@ -11,11 +11,11 @@
     flex-wrap: wrap;
     position: relative;
     padding-top: var(--size100);
-    padding-bottom: var(--size100);
   }
 
   li {
     margin-right: var(--size100);
+    padding-bottom: var(--size100);
   }
 
   li:first-child a {
@@ -25,6 +25,10 @@
 
   li:last-child {
     margin-right: 0;
+  }
+
+  li.current {
+    border-bottom: 0.4rem solid var(--c-purple600);
   }
 
   a {
