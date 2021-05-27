@@ -1,1 +1,26 @@
-e
+{% extends "site.html" %}
+
+{% block body_classes %}p-tags{% endblock %}
+
+{% block title %}
+  Archive for {{ term.name }} | Tales Cione
+{% endblock title %}
+
+{% block content %}
+  <div class="u-wrapper">
+    <h1>Archive for {{ term.name }}</h1>
+
+    <ul class="c-article-list">
+      {% for page in term.pages %}
+        <li>
+          {% if page.date %}
+            <time datetime="{{ page.date }}">{{ page.date | date }}</time>
+          {% endif %}
+          <a href="{{ page.permalink }}" title="{{ page.summary }}">
+            <h2>{{ page.title }}</h2>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endblock content %}

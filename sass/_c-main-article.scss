@@ -16,6 +16,12 @@
       font-weight: 700;
       color: #999;
       margin: 0;
+
+      a, a:visited, a:hover {
+        color: #999;
+        background: transparent;
+        box-shadow: none;
+      }
     }
 
     h1 {

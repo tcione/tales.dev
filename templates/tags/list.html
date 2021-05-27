@@ -1,1 +1,23 @@
-Yo
+{% extends "site.html" %}
+
+{% block body_classes %}p-tags{% endblock %}
+
+{% block title %}
+  Blog tags | Tales Cione
+{% endblock title %}
+
+{% block content %}
+  <div class="u-wrapper">
+    <h1>Blog tags</h1>
+
+    <ul class="c-article-list">
+      {% for tag in terms %}
+        <li>
+          <a href="{{ tag.permalink }}" title="View all posts tagged with {{ tag.name }}">
+            {{ tag.name }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endblock content %}

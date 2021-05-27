@@ -15,11 +15,19 @@
       <header>
         <p class="c-main-article__meta">
           {% if parent %}
-            Filed in [{{ parent.title }}]
+            Filed in [<a href="{{ parent.permalink }}" title="See all articles filed in {{ parent.title }}">{{ parent.title }}</a>]
           {% endif %}
 
           {% if page.date %}
             on [<time datetime="{{ page.date }}">{{ page.date | date }}</time>]
+          {% endif %}
+
+          {% if page.taxonomies.tags %}
+            under
+            {% for tag in page.taxonomies.tags %}
+              {% if loop.index > 1 %}, {% endif %}
+              [<a href="{{ config.base_url }}/tags/{{tag}}" title="Look at the archive for {{ tag }}">{{ tag }}</a>]
+            {% endfor %}
           {% endif %}
         </p>
 
