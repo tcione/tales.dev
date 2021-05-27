@@ -3,6 +3,35 @@
 {% block body_classes %}p-home{% endblock %}
 {% block main_header %}{% endblock %}
 {% block main_footer %}{% endblock %}
+{% block structured_data %}
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Person",
+    "name": "Tales Cione",
+    "jobTitle": "Engineering Manager",
+    "url": "https://tales.dev",
+    "knowsLanguage": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Language",
+        "name": "Portuguese",
+        "alternateName": "pt"
+      },
+      {
+        "@context": "http://schema.org/",
+        "@type": "Language",
+        "name": "English",
+        "alternateName": "en"
+      }
+    ],
+    "sameAs": [
+      "https://twitter.com/tcione",
+      "https://www.linkedin.com/in/tcione"
+    ]
+  }
+</script>
+{% endblock %}
 
 {% block content %}
   <div class="u-wrapper">
