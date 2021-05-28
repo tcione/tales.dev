@@ -6,6 +6,50 @@
   {{ section.title }} | Tales Cione
 {% endblock title %}
 
+{% block structured_data %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "blogPost": [
+  {% for page in paginator.pages %}
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "{{ page.title }}",
+      "keywords": "{% if page.taxonomies.tags %}{% for tag in page.taxonomies.tags %}{{ tag }} {% endfor %}{% endif %}",
+      "wordcount": "{{ page.word_count }}",
+      "url": "{{ page.permalink }}",
+      "datePublished": "{{ page.date }}",
+      "dateCreated": "{{ page.date }}",
+      "dateModified": "{{ page.date }}",
+      "description": "{{ page.description }}",
+      "publisher": {
+        "@context": "http://schema.org/",
+        "@type": "Organization",
+        "name": "Tales Cione",
+        "logo": "https://placekitten.com/300/400"
+      },
+      "image": "https://placekitten.com/300/400",
+      "mainEntityOfPage": "True",
+      "author": {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "Tales Cione"
+      }
+    }
+  {% endfor %}
+  ],
+  "abstract": "{{ section.title }}: {{ section.description }}",
+  "author": {
+    "@context": "http://schema.org/",
+    "@type": "Person",
+    "name": "Tales Cione"
+  }
+}
+</script>
+{% endblock %}
+
 {% block content %}
   <div class="u-wrapper">
     <h1>{{ section.title }}</h1>
