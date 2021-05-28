@@ -7,6 +7,9 @@
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
   <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}" />
   <link rel="stylesheet" href="{{ get_url(path="site.css", trailing_slash=false) | safe }}">
+
+  <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
+
   {% block structured_data %}{% endblock structured_data %}
 </head>
 <body class="{% block body_classes %}p-default{% endblock %}">
