@@ -10,6 +10,24 @@
 
   <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
 
+  <meta property="og:title" content="{% block meta_og_title %}{{ config.title }}{% endblock meta_og_title %}" />
+  <meta property="og:description" content="{% block meta_og_description %}{{ config.description }}{% endblock meta_og_description %}" />
+
+  {% if page and page.extra and page.extra.thumbnail %}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:image" content="{{ page.extra.thumbnail }}" />
+    <meta name="twitter:image:alt" content="{{ page.extra.thumbnail_alt }}" />
+  {% else %}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:image" content="https://placekitten.com/400x400" />
+    <meta name="twitter:image:alt" content="A square with a colored background with a 't' character at the center" />
+  {% endif %}
+
+  {% if current_url %}
+    <meta property="og:url" content="{{ current_url }}" />
+  {% endif %}
+  <meta property="og:site_name" content="Tales Cione" />
+
   {% block structured_data %}{% endblock structured_data %}
 </head>
 <body class="{% block body_classes %}p-default{% endblock %}">
