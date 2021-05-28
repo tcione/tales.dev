@@ -21,10 +21,10 @@
             <li>
               <a href="{{ config.base_url }}" title="Back to home page">tales.dev</a>
             </li>
-            <li {% if current_url == get_url(path="@/blog/_index.md", trailing_slash=true) %}class="current"{% endif %}>
+            <li {% if current_url and current_url == get_url(path="@/blog/_index.md", trailing_slash=true) %}class="current"{% endif %}>
               <a href="{{ get_url(path="@/blog/_index.md", trailing_slash=true) }}" title="Check out my blog posts">blog</a>
             </li>
-            <li {% if current_url == get_url(path="@/zettelkasten/_index.md", trailing_slash=true) %}class="current"{% endif %}>
+            <li {% if current_url and current_url == get_url(path="@/zettelkasten/_index.md", trailing_slash=true) %}class="current"{% endif %}>
               <a href="{{ get_url(path="@/zettelkasten/_index.md", trailing_slash=true) }}" title="My learning notes">zettelkasten</a>
             </li>
           </ul>
