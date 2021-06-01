@@ -4,11 +4,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#3A158C">
+  <meta name="distribution" content="global" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+
   <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}" />
-  <link rel="stylesheet" href="{{ get_url(path="site.css", trailing_slash=false) | safe }}">
 
   <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
+
+  <link rel="stylesheet" href="{{ get_url(path="site.css", trailing_slash=false) | safe }}">
+
+  <link rel="icon" sizes="32x32" href="{{ config.base_url }}/favicons/favicon-32x32.png">
+  <link rel="icon" sizes="16x16" href="{{ config.base_url }}/favicons/favicon-16x16.png" />
+  <link rel="shortcut icon" href="{{ config.base_url }}/favicons/favicon-16x16.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ config.base_url }}/favicons/favicon-152x152.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ config.base_url }}/favicons/favicon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ config.base_url }}/favicons/favicon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ config.base_url }}/favicons/favicon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ config.base_url }}/favicons/favicon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="32x32" href="{{ config.base_url }}/favicons/favicon-32x32.png" />
 
   <meta property="og:title" content="{% block meta_og_title %}{{ config.title }}{% endblock meta_og_title %}" />
   <meta property="og:description" content="{% block meta_og_description %}{{ config.description }}{% endblock meta_og_description %}" />
@@ -17,16 +33,23 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="og:image" content="{{ page.extra.thumbnail }}" />
     <meta name="twitter:image:alt" content="{{ page.extra.thumbnail_alt }}" />
+    <meta property="og:image:width" content="1060" />
+    <meta property="og:image:height" content="550" />
   {% else %}
     <meta name="twitter:card" content="summary_large_image" />
-    <meta property="og:image" content="https://placekitten.com/400x400" />
+    <meta property="og:image" content="{{ config.base_url }}/favicons/favicon-1024x1024.png" />
     <meta name="twitter:image:alt" content="A square with a colored background with a 't' character at the center" />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="1024" />
   {% endif %}
 
   {% if current_url %}
     <meta property="og:url" content="{{ current_url }}" />
+    <link rel="canonical" href="{{ current_url }}">
   {% endif %}
-  <meta property="og:site_name" content="Tales Cione" />
+
+  <meta property="og:site_name" content="tales.dev" />
+  <meta property="og:locale" content="en">
 
   {% block structured_data %}{% endblock structured_data %}
 </head>
