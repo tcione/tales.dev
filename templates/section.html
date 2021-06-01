@@ -2,9 +2,11 @@
 
 {% block body_classes %}p-default{% endblock %}
 
-{% block title %}
-  {{ section.title }} | Tales Cione
-{% endblock title %}
+{% block title %}{{ section.title }} | Tales Cione{% endblock %}
+{% block meta_og_title %}{{ section.title }} | Tales Cione{% endblock %}
+
+{% block description %}{{ section.description }}{% endblock %}
+{% block meta_og_description %}{{ section.description }}{% endblock %}
 
 {% block structured_data %}
 <script type="application/ld+json">

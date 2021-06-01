@@ -2,9 +2,11 @@
 
 {% block body_classes %}p-tags{% endblock %}
 
-{% block title %}
-  Archive for {{ term.name }} | Tales Cione
-{% endblock title %}
+{% block title %}Archive for {{ term.name }} | Tales Cione{% endblock %}
+{% block meta_og_title %}Archive for {{ term.name }} | Tales Cione{% endblock %}
+
+{% block description %}See all posts tagged with {{ term.name }}{% endblock %}
+{% block meta_og_description %}See all posts tagged with {{ term.name }}{% endblock %}
 
 {% block content %}
   <div class="u-wrapper">
