@@ -2,6 +2,7 @@
 title = "Review: Become an Effective Software Engineering Manager"
 date = 2021-05-27T19:49:00Z
 description = ""
+summary = ""
 [taxonomies]
 tags=["reviews"]
 +++
