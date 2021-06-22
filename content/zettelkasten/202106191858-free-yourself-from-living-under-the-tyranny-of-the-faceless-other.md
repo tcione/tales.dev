@@ -11,6 +11,6 @@ People who resonate will come, people who doesn't will just pass by, and that's 
 
 Whatever you think other people is thinking of you, they probably aren't :)
 
-Tyranny of the faceless was taken from [[#kupati-faceless](/zettelkasten/tags/kupati-faceless)]
+Tyranny of the faceless was taken from [[#kulpati-faceless](/zettelkasten/tags/kulpati-faceless)]
 
 [[#kulpati-faceless](/zettelkasten/tags/kulpati-faceless)]: Kulpati, Sarvasv. “The Tyranny of the Faceless Other.” Accessed June 19, 2021. [https://sarvasvkulpati.com/blog/the-faceless-other?utm\_source=hackernewsletter&utm\_medium=email&utm\_term=fav](https://sarvasvkulpati.com/blog/the-faceless-other?utm_source=hackernewsletter&utm_medium=email&utm_term=fav).
