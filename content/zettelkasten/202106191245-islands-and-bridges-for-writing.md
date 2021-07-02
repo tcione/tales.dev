@@ -15,4 +15,6 @@ This strategy is to help with the later. It consists the following flow:
 2. Arrange them in an order that makes sense to you (probably after getting insight from forming the islands)
 3. Create bridges between the islands (make them as long as needed)
 
+Note that this is good for open ended works. When you know what you want to say, please consider [202106231334 Summary box for writting](/zettelkasten/202106231334-summary-box-for-writting)
+
 [[#perell-islands-and-bridges](/zettelkasten/tags/perell-islands-and-bridges)]: Perell, David. “The Islands and Bridges Strategy.” David Perell. Accessed June 19, 2021. [https://perell.com/note/the-islands-and-bridges-strategy/](https://perell.com/note/the-islands-and-bridges-strategy/).
