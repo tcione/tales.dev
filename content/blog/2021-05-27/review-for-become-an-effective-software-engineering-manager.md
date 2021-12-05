@@ -14,3 +14,5 @@ My unorganized notes: [zettelkasten#stanier-effective-manager](/zettelkasten/tag
 The book covers a lot of ground, so it sets itself to only give brief introductions to all the topics that should be relevant to an engineering manager. It does a wonderful job at that.
 
 [WIP]
+
+edit
