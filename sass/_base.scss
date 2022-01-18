@@ -52,6 +52,7 @@ a {
   transition: box-shadow 100ms ease, background 100ms ease;
   box-shadow: 0 0 0 transparent;
 
+  &:focus,
   &:hover {
     color: #FFF;
     background: var(--c-orange400);
@@ -63,6 +64,7 @@ a {
   &:visited {
     color: var(--c-purple300);
 
+    &:focus,
     &:hover {
       color: #FFF;
     }

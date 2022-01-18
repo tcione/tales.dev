@@ -1,10 +1,23 @@
+.c-forest {
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    display: block;
+    background: var(--c-purple600);
+    color: var(--c-white);
+    text-decoration: none;
+  }
+
+  span {
+    display: none;
+  }
+}
+
 @media all and (max-width: 32.5em) {
   .c-forest {
-    ul {
-      padding: 0;
-      list-style: none;
-    }
-
     li {
       width: 100%;
       padding-right: var(--size600);
@@ -33,15 +46,68 @@
     a {
       font-size: 1.2rem;
       padding: 0.2rem 1rem;
-      display: block;
-      background: var(--c-purple600);
-      color: var(--c-white);
-      text-decoration: none;
     }
   }
 }
 
 @media all and (min-width: 32.51em) {
   .c-forest {
+    --base-item-size: 2rem;
+    --expansion-factor: 4;
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: var(--base-item-size);
+    }
+
+    li {
+      width: var(--base-item-size);
+      height: var(--base-item-size);
+      margin-left: calc(var(--base-item-size) / 2);
+      margin-right: calc(var(--base-item-size) / 2);
+      margin-bottom: var(--base-item-size);
+    }
+
+    a {
+      text-align: center;
+      width: var(--base-item-size);
+      height: var(--base-item-size);
+      color: var(--c-purple600);
+      border-radius: 50%;
+      z-index: 1;
+      transition: transform 100ms ease-out;
+    }
+
+    h2 {
+      display: none;
+    }
+
+    span {
+      font-weight: 700;
+      display: block;
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      background: var(--c-purple600);
+      color: var(--c-white);
+      padding: 0.4rem 1rem;
+      box-shadow: 0.2rem 0.2rem 0 var(--c-orange400);
+      transform: translate3d(0, -5rem, 0);
+      transition: transform 100ms ease-out;
+    }
+
+    a:focus,
+    a:hover {
+      transform: scale3d(var(--expansion-factor), var(--expansion-factor), 1);
+      transition: transform 100ms ease-out;
+      box-shadow: none;
+    }
+
+    a:focus + span,
+    a:hover + span {
+      transform: translate3d(0, 0, 0);
+      transition: transform 100ms ease-in;
+    }
   }
 }
