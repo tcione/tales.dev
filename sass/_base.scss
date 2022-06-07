@@ -16,6 +16,13 @@
   --size1200: 9.6rem;
   --size1300: 10.4rem;
   --size2200: 17.6rem;
+  --font-size-default: 1.8rem;
+  --font-size-xs: 1rem;
+  --font-size-s: 1.4rem;
+  --font-size-m: 1.8rem;
+  --font-size-l: 2.2rem;
+  --font-size-xl: 2.6rem;
+  --font-size-xxl: 3rem;
   --c-white: #FFFFFF;
 }
 
@@ -34,14 +41,23 @@ html {
 }
 
 body {
-  font-size: 1.8rem;
+  font-size: var(--font-size-default);
   line-height: 1.4;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-  color: #333;
+  color: #333333;
+  background: #DDDDDD;
 }
 
 code {
   display: block;
   max-width: 100%;
   overflow: auto;
+}
+
+h1 {
+  font-size: var(--font-size-xl);
+}
+
+h2 {
+  font-size: var(--font-size-l);
 }

@@ -1,8 +1,6 @@
 {% extends "site.html" %}
 
 {% block body_classes %}p-home{% endblock %}
-{% block main_header %}{% endblock %}
-{% block main_footer %}{% endblock %}
 {% block structured_data %}
 <script type="application/ld+json">
   {
@@ -45,11 +43,10 @@
       <h2>Writing</h2>
 
       <ul>
-        <li><a href="#">Article 1</a></li>
-        <li><a href="#">Article 1</a></li>
-        <li><a href="#">Article 1</a></li>
-        <li><a href="#">Article 1</a></li>
-        <li><a href="#">Article 1</a></li>
+        {% set writing = get_section(path="blog/_index.md") %}
+        {% for page in writing.pages | slice(end=5) %}
+          <li><a href="{{ page.permalink }}" title="{{ page.summary }}">{{ page.title }}</a></li>
+        {% endfor %}
       </ul>
 
       <p><a href="{{ get_url(path="@/blog/_index.md", trailing_slash=true) }}" title="Get access to a list with all my blog posts, completely free 😄">See all of them</a></p>
@@ -59,11 +56,10 @@
       <h2>Blips</h2>
 
       <ul>
-        <li><a href="#">Article 1</a></li>
-        <li><a href="#">Article 1</a></li>
-        <li><a href="#">Article 1</a></li>
-        <li><a href="#">Article 1</a></li>
-        <li><a href="#">Article 1</a></li>
+        {% set blips = get_section(path="zettelkasten/_index.md") %}
+        {% for page in blips.pages | slice(end=5) %}
+          <li><a href="{{ page.permalink }}" title="{{ page.summary }}">{{ page.title }}</a></li>
+        {% endfor %}
       </ul>
 
       <p><a href="{{ get_url(path="@/zettelkasten/_index.md", trailing_slash=true) }}" title="Check out my fancy Zettelkasten entries">More</a></p>

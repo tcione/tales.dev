@@ -1,3 +1,7 @@
 @import '_normalize';
 @import '_base';
 @import '_utilities';
+
+.p-home {
+  h1 { font-size: var(--font-size-l); }
+}
