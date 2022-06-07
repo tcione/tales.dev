@@ -36,20 +36,42 @@
 {% block content %}
   <div class="u-wrapper">
     <section class="s-introduction">
-      <h1>Hi, <br role="presentation"/>there!</h1>
+      <h1>Hi, there!</h1>
 
       <p>I'm Tales, a Brazilian software developer living in Berlin. I'm currently working as an Engineering Manager for <a href="https://heyjobs.co" title="Visite the HeyJobs home page" target="_blank" rel="noopener">HeyJobs</a>.</p>
     </section>
 
-    <section class="s-blogroll">
-      <p>In case you're interested, I write some things at <a href="{{ get_url(path="@/blog/_index.md", trailing_slash=true) }}" title="Get access to a list with all my blog posts, completely free 😄">my blog</a>.</p>
+    <section class="s-articles">
+      <h2>Writing</h2>
+
+      <ul>
+        <li><a href="#">Article 1</a></li>
+        <li><a href="#">Article 1</a></li>
+        <li><a href="#">Article 1</a></li>
+        <li><a href="#">Article 1</a></li>
+        <li><a href="#">Article 1</a></li>
+      </ul>
+
+      <p><a href="{{ get_url(path="@/blog/_index.md", trailing_slash=true) }}" title="Get access to a list with all my blog posts, completely free 😄">See all of them</a></p>
     </section>
 
-    <section class="s-zettelkasten">
-      <p>I'm trying to learn out in the open, if you'd like to take a peek at my learning notes, you can check out my <a href="{{ get_url(path="@/zettelkasten/_index.md", trailing_slash=true) }}" title="Check out my fancy Zettelkasten entries">zettelkasten</a>.</p>
+    <section class="s-blips">
+      <h2>Blips</h2>
+
+      <ul>
+        <li><a href="#">Article 1</a></li>
+        <li><a href="#">Article 1</a></li>
+        <li><a href="#">Article 1</a></li>
+        <li><a href="#">Article 1</a></li>
+        <li><a href="#">Article 1</a></li>
+      </ul>
+
+      <p><a href="{{ get_url(path="@/zettelkasten/_index.md", trailing_slash=true) }}" title="Check out my fancy Zettelkasten entries">More</a></p>
     </section>
 
     <section class="s-contact">
+      <h2>Reaching out</h2>
+
       <p>Feel free to reach out at <a href="mailto:hi@tales.dev" title="Send me a – hopefully – friendly email">hi@tales.dev</a>, <a href="https://www.linkedin.com/in/tcione" title="LinkedIN is a weird network, but if that's your thing, let's go">LinkedIN</a> or <a href="https://twitter.com/tcione" title="I mostly tweet in portuguese. DMs are open, though.">Twitter</a> :)</p>
     </section>
   </div>
