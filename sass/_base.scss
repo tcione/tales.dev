@@ -24,6 +24,9 @@
   --font-size-xl: 2.6rem;
   --font-size-xxl: 3rem;
   --c-white: #FFFFFF;
+  --c-blue: HSL(220, 82%, 56%);
+  --c-blue-d1: HSL(220, 82%, 30%);
+  --c-blue-l1: HSL(220, 82%, 64%);
 }
 
 *, *:after, *:before {
@@ -60,4 +63,16 @@ h1 {
 
 h2 {
   font-size: var(--font-size-l);
+}
+
+a {
+  color: var(--c-blue);
+
+  &:hover {
+    color: var(--c-blue-l1);
+  }
+
+  &:visited {
+    color: var(--c-blue-d1);
+  }
 }
