@@ -45,11 +45,12 @@
       <ul>
         {% set writing = get_section(path="blog/_index.md") %}
         {% for page in writing.pages | slice(end=5) %}
-          <li><a href="{{ page.permalink }}" title="{{ page.summary }}">{{ page.title }}</a></li>
+          <li>
+            <time datetime="{{ page.date }}">{{ page.date | date(format="%y'%b %d") }}</time>
+            <a href="{{ page.permalink }}" title="{{ page.summary }}">{{ page.title }}</a>
+          </li>
         {% endfor %}
       </ul>
-
-      <p><a href="{{ get_url(path="@/blog/_index.md", trailing_slash=true) }}" title="Get access to a list with all my blog posts, completely free 😄">See all of them</a></p>
     </section>
 
     <section class="s-blips">
@@ -58,17 +59,18 @@
       <ul>
         {% set blips = get_section(path="zettelkasten/_index.md") %}
         {% for page in blips.pages | slice(end=5) %}
-          <li><a href="{{ page.permalink }}" title="{{ page.summary }}">{{ page.title }}</a></li>
+          <li>
+            <time datetime="{{ page.date }}">{{ page.date | date(format="%y'%b %d") }}</time>
+            <a href="{{ page.permalink }}" title="{{ page.summary }}">{{ page.title }}</a>
+          </li>
         {% endfor %}
       </ul>
-
-      <p><a href="{{ get_url(path="@/zettelkasten/_index.md", trailing_slash=true) }}" title="Check out my fancy Zettelkasten entries">More</a></p>
     </section>
 
     <section class="s-contact">
       <h2>Reaching out</h2>
 
-      <p>Feel free to reach out at <a href="mailto:hi@tales.dev" title="Send me a – hopefully – friendly email">hi@tales.dev</a>, <a href="https://www.linkedin.com/in/tcione" title="LinkedIN is a weird network, but if that's your thing, let's go">LinkedIN</a> or <a href="https://twitter.com/tcione" title="I mostly tweet in portuguese. DMs are open, though.">Twitter</a> :)</p>
+      <p>Feel free to reach out at <a href="mailto:hi@tales.dev" title="Send me a – hopefully – friendly email">hi@tales.dev</a>, <a href="https://www.linkedin.com/in/tcione" title="LinkedIn is a weird network, but if that's your thing, let's go">LinkedIn</a> or <a href="https://twitter.com/tcione" title="I mostly tweet in portuguese. DMs are open, though.">Twitter</a> :)</p>
     </section>
   </div>
 {% endblock content %}

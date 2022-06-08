@@ -37,10 +37,45 @@
 }
 
 .p-home {
-  h1 { font-size: var(--font-size-l); }
+  h1 {
+    font-size: var(--font-size-l);
+    margin-bottom: var(--size50);
+  }
+
+  h2,
+  p {
+    margin-bottom: var(--size50);
+  }
+
+  p {
+    margin-top: 0;
+  }
 
   .s-main-header li:first-child a {
     background-color: #333333;
     color: #FFFFFF;
+  }
+
+  section {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      position: relative;
+
+      time {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate3d(-115%, -50%, 0);
+        font-size: var(--font-size-xs);
+        color: #999999;
+        font-weight: 700;
+        font-family: monospace;
+      }
+    }
   }
 }
