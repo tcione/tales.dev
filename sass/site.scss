@@ -2,6 +2,45 @@
 @import '_base';
 @import '_utilities';
 
+.s-main-header {
+  nav {
+    padding-top: var(--size300);
+    padding-bottom: var(--size200);
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+
+    &.current a {
+      background-color: #333333;
+      color: #FFFFFF;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #333333;
+    border-bottom: 2px solid #333333;
+    padding: 0.3rem 0.7rem;
+
+    &:hover {
+      background-color: #333333;
+      color: #FFFFFF;
+    }
+  }
+}
+
 .p-home {
   h1 { font-size: var(--font-size-l); }
+
+  .s-main-header li:first-child a {
+    background-color: #333333;
+    color: #FFFFFF;
+  }
 }
