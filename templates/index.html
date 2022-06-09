@@ -43,7 +43,7 @@
       <h2>Writing</h2>
 
       <ul class="c-articles u-reset-list">
-        {% set writing = get_section(path="blog/_index.md") %}
+        {% set writing = get_section(path="writing/_index.md") %}
         {% for page in writing.pages | slice(end=5) %}
           <li>
             <time datetime="{{ page.date }}">{{ page.date | date(format="%y'%b %d") }}</time>
@@ -57,7 +57,7 @@
       <h2>Blips</h2>
 
       <ul class="c-articles u-reset-list">
-        {% set blips = get_section(path="zettelkasten/_index.md") %}
+        {% set blips = get_section(path="blips/_index.md") %}
         {% for page in blips.pages | slice(end=5) %}
           <li>
             <time datetime="{{ page.date }}">{{ page.date | date(format="%y'%b %d") }}</time>
