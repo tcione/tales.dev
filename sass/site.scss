@@ -53,6 +53,54 @@
   }
 }
 
+.c-article {
+  header {
+    padding-top: var(--size300);
+    margin-bottom: var(--size300);
+  }
+
+  time {
+    font-size: var(--font-size-s);
+    color: #777777;
+    font-family: monospace;
+    font-weight: 700;
+  }
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  &__tags {
+    li {
+      display: inline-block;
+      font-size: var(--font-size-s);
+      margin-right: var(--size50);
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  p,
+  ul,
+  ol {
+    margin-bottom: var(--size200);
+  }
+
+  p {
+    margin-top: 0;
+    line-height: 1.5;
+  }
+
+  ul, ol {
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
 .c-section-intro { margin-bottom: var(--size300); }
 
 .c-pagination {
