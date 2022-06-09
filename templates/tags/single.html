@@ -10,9 +10,9 @@
 
 {% block content %}
   <div class="u-wrapper">
-    <h1>Archive for {{ term.name }}</h1>
+    <h1>Archive for #{{ term.name }}</h1>
 
-    <ul class="c-article-list">
+    <ul class="c-articles u-reset-list">
       {% for page in term.pages %}
         <li>
           {% if page.date %}

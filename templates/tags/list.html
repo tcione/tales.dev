@@ -10,13 +10,13 @@
 
 {% block content %}
   <div class="u-wrapper">
-    <h1>Blog tags</h1>
+    <h1>Gimme all your blog tags :3</h1>
 
-    <ul class="c-article-list">
+    <ul class="u-horizontal-list">
       {% for tag in terms %}
         <li>
           <a href="{{ tag.permalink }}" title="View all posts tagged with {{ tag.name }}">
-            {{ tag.name }}
+            #{{ tag.name }}<sup>{{ tag.pages | length }}</sup>
           </a>
         </li>
       {% endfor %}

@@ -10,6 +10,15 @@
   padding: 0;
 }
 
+.u-horizontal-list {
+  @extend .u-reset-list;
+
+  li {
+    display: inline-block;
+    margin-right: var(--size100);
+  }
+}
+
 @media all and (min-width: 45em) {
   .u-wrapper {
     padding-left: var(--size200);
