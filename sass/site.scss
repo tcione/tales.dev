@@ -2,16 +2,10 @@
 @import '_base';
 @import '_utilities';
 
-.s-main-header {
+.c-main-header {
   nav {
     padding-top: var(--size300);
     padding-bottom: var(--size200);
-  }
-
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
   }
 
   li {
@@ -36,46 +30,71 @@
   }
 }
 
-.p-home {
+.p-index {
   h1 {
     font-size: var(--font-size-l);
     margin-bottom: var(--size50);
   }
 
   h2,
-  p {
-    margin-bottom: var(--size50);
-  }
+  p { margin-bottom: var(--size50); }
 
-  p {
-    margin-top: 0;
-  }
+  p { margin-top: 0; }
 
+  .c-articles li { margin-bottom: var(--size100); }
+}
+
+.p-home {
   .s-main-header li:first-child a {
     background-color: #333333;
     color: #FFFFFF;
   }
+}
 
-  section {
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
+.c-articles {
+  li {
+    display: block;
+    position: relative;
+  }
 
-    li {
-      position: relative;
+  a {
+    position: relative;
+    display: block;
+  }
 
-      time {
-        position: absolute;
-        left: 0;
-        top: 50%;
-        transform: translate3d(-115%, -50%, 0);
-        font-size: var(--font-size-xs);
-        color: #999999;
-        font-weight: 700;
-        font-family: monospace;
-      }
-    }
+  time {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate3d(-115%, -40%, 0);
+    font-size: var(--font-size-xs);
+    color: #999999;
+    font-weight: 700;
+    font-family: monospace;
+  }
+}
+
+.c-section-intro { margin-bottom: var(--size300); }
+
+.c-pagination {
+  margin-top: var(--size500);
+  overflow: auto;
+
+  &:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  a {
+    display: block;
+  }
+
+  &__previous {
+    float: left;
+  }
+
+  &__next {
+    float: right;
   }
 }

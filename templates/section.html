@@ -1,6 +1,6 @@
 {% extends "site.html" %}
 
-{% block body_classes %}p-default{% endblock %}
+{% block body_classes %}p-default p-index{% endblock %}
 
 {% block title %}{{ section.title }} | Tales Cione{% endblock %}
 {% block meta_og_title %}{{ section.title }} | Tales Cione{% endblock %}
@@ -21,8 +21,7 @@
       "headline": "{{ page.title }}",
       "keywords": "{% if page.taxonomies.tags %}{% for tag in page.taxonomies.tags %}{{ tag }} {% endfor %}{% endif %}",
       "wordcount": "{{ page.word_count }}",
-      "url": "{{ page.permalink }}",
-      "datePublished": "{{ page.date }}",
+      "url": "{{ page.permalink }}", "datePublished": "{{ page.date }}",
       "dateCreated": "{{ page.date }}",
       "dateModified": "{{ page.updated }}",
       "description": "{{ page.description }}",
@@ -56,16 +55,16 @@
   <div class="u-wrapper">
     <h1>{{ section.title }}</h1>
 
-    <div>{{ section.content | safe }}</div>
+    <div class="c-section-intro">{{ section.content | safe }}</div>
 
-    <ul class="c-article-list">
+    <ul class="c-articles u-reset-list">
       {% for page in paginator.pages %}
         <li>
-          {% if page.date %}
-            <time datetime="{{ page.date }}">{{ page.date | date }}</time>
-          {% endif %}
           <a href="{{ page.permalink }}" title="{{ page.summary }}">
-            <h2>{% if page.extra.zettelkasten_id %}[{{ page.extra.zettelkasten_id }}] {% endif %}{{ page.title }}</h2>
+            {% if page.date %}
+              <time datetime="{{ page.date }}">{{ page.date | date(format="%y'%b %d") }}</time>
+            {% endif %}
+            <span>{{ page.title }}</span>
           </a>
         </li>
       {% endfor %}
@@ -73,10 +72,10 @@
 
     <nav class="c-pagination">
       {% if paginator.previous %}
-        <a class="c-pagination__previous" href="{{ paginator.previous }}">Previous</a>
+        <a class="c-pagination__previous" href="{{ paginator.previous }}"><span role="presentation">&laquo; </span>Previous</a>
       {% endif %}
       {% if paginator.next %}
-        <a class="c-pagination__next" href="{{ paginator.next }}">Next</a>
+      <a class="c-pagination__next" href="{{ paginator.next }}">Next <span role="presentation"> &raquo;</span></a>
       {% endif %}
     </nav>
   </div>

@@ -1,6 +1,6 @@
 +++
 title = "Zettelkasten"
-paginate_by = 11
+paginate_by = 100
 sort_by = "date"
 description = "Welcome to my digital garden - a collection of notes on several things."
 +++
