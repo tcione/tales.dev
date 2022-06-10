@@ -1,8 +1,8 @@
 +++
-title = "Zettelkasten"
+title = "Blips"
 paginate_by = 100
 sort_by = "date"
 description = "Welcome to my digital garden - a collection of notes on several things."
 +++
 
-Welcome to my digital garden. Here you'll find notes in English and Portuguese (it depends a lot in which language I was reading at the time). I plan to provide a better index (or even better navigation), but for now, a list of notes will do. Enjoy! (and if you'd like to comment on something, feel free to ping me via [email or twitter](/)).
+I try to take notes of things whenever I think there are valuable tidbits. Value here means lots of things, from topics I study to vibes. Language may vary and I'm still thinking what would be the best way to navigate all these notes. In the meantime, I do hope you can enjoy small digital garden :)
