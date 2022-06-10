@@ -2,10 +2,10 @@
 title = "Ways to expand your influence as a manager"
 date = "2021-05-05T12:12:00Z"
 
-[extra]
-blips_id = "202105051212"
+[taxonomies]
+tags=["stanier-effective-manager"]
 +++
-On [[#stanier-effective-manager](/blips/tags/stanier-effective-manager)], 9th chapter
+On [[#stanier-effective-manager](/tags/stanier-effective-manager)], 9th chapter
 
 We can identify 3 activities with potential when it comes to expanding your influence
 1. [202105051218 Building your network within a company](/blips/202105051218-building-your-network-within-a-company)
@@ -13,4 +13,4 @@ We can identify 3 activities with potential when it comes to expanding your infl
 3. [202105051358 Coaching](/blips/202105051358-coaching)
 
 
-[[#stanier-effective-manager](/blips/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.
+[[#stanier-effective-manager](/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.

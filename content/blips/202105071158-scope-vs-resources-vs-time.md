@@ -2,10 +2,10 @@
 title = "Scope VS Resources VS Time"
 date = "2021-05-07T11:58:00Z"
 
-[extra]
-blips_id = "202105071158"
+[taxonomies]
+tags=["stanier-effective-manager"]
 +++
-On [[#stanier-effective-manager](/blips/tags/stanier-effective-manager)], 11th chapter:
+On [[#stanier-effective-manager](/tags/stanier-effective-manager)], 11th chapter:
 
 Every project is governed by a balance between scope, resources and time. A manager will have to weight in and manipulate those attributes to be successful in their projects.
 
@@ -20,10 +20,10 @@ Time:
 
 Resources:
 - Can we parallelized tasks?
-- How can we optimally deploy our developers without them stepping on each other toes? (keep [202105071145 Brook's Law](/blips/202105071145-brook-s-law) in mind)
+- How can we optimally deploy our developers without them stepping on each other toes? (keep [202105071145 Brook's Law](/blips/202105071145-brook's-law) in mind)
 - Do we have the necessary expertise already available?
 
 For all three, consider [202105191357 SCRUM focus on knowledge acquision](/blips/202105191357-scrum-focus-on-knowledge-acquision)
 
 
-[[#stanier-effective-manager](/blips/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.
+[[#stanier-effective-manager](/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.

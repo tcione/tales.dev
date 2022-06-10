@@ -2,10 +2,10 @@
 title = "HIGH and LOW calculation for circuits"
 date = "2021-03-18T08:34:00Z"
 
-[extra]
-blips_id = "202103180834"
+[taxonomies]
+tags=["harris-harris-digital-design"]
 +++
-On [[#harris-harris-digital-design](/blips/tags/harris-harris-digital-design)], chapter 1.
+On [[#harris-harris-digital-design](/tags/harris-harris-digital-design)], chapter 1.
 
 Digital systems use simplified representations of our analog reality. In the case of circuits, we have to translate current values (which are analog, thus not precise all the time) to 0s (coded as `LOW`) and 1s (coded as `HIGH`).
 
@@ -58,4 +58,4 @@ $$NM_H = V_{OH} - V_{IH}$$
 
 
 
-[[#harris-harris-digital-design](/blips/tags/harris-harris-digital-design)]: Harris, David Money, and Sarah L. Harris. _Digital Design and Computer Architecture_. Second edition. Amsterdam: Elsevier, 2013. 
+[[#harris-harris-digital-design](/tags/harris-harris-digital-design)]: Harris, David Money, and Sarah L. Harris. _Digital Design and Computer Architecture_. Second edition. Amsterdam: Elsevier, 2013. 

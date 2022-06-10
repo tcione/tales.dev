@@ -2,10 +2,10 @@
 title = "Information circulation within a company"
 date = "2021-05-08T14:43:00Z"
 
-[extra]
-blips_id = "202105081443"
+[taxonomies]
+tags=["stanier-effective-manager"]
 +++
-On [[#stanier-effective-manager](/blips/tags/stanier-effective-manager)], 12th chapter:
+On [[#stanier-effective-manager](/tags/stanier-effective-manager)], 12th chapter:
 
 As a manager, you withhold valuable information. You should decide when, how and who to share information with.
 
@@ -20,4 +20,4 @@ In essence:
 2. Think of other people (don't do to other what you wouldn't like done to you)
 
 
-[[#stanier-effective-manager](/blips/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.
+[[#stanier-effective-manager](/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.

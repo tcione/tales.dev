@@ -2,8 +2,8 @@
 title = "Software development pragmatism"
 date = "2021-05-07T11:30:00Z"
 
-[extra]
-blips_id = "202105071130"
+[taxonomies]
+tags=[]
 +++
 It's all about trade offs and discipline:
 

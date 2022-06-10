@@ -2,8 +2,8 @@
 title = "An overly simple definition of complexity according to systems theory"
 date = "2021-11-02T23:46:00Z"
 
-[extra]
-blips_id = "202111022346"
+[taxonomies]
+tags=[]
 +++
 Problem spaces can be simple, complex and chaotic.
 

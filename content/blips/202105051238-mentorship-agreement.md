@@ -2,10 +2,10 @@
 title = "Mentorship agreement"
 date = "2021-05-05T12:38:00Z"
 
-[extra]
-blips_id = "202105051238"
+[taxonomies]
+tags=["stanier-effective-manager"]
 +++
-On [[#stanier-effective-manager](/blips/tags/stanier-effective-manager)], 9th chapter
+On [[#stanier-effective-manager](/tags/stanier-effective-manager)], 9th chapter
 
 Similar to the idea of [202103111916 About doing contracting with your staff](/blips/202103111916-about-doing-contracting-with-your-staff), having an agreement with your mentee/mentor might come in handy to establish expectations. The author suggests the following items for the document:
 
@@ -16,5 +16,5 @@ Similar to the idea of [202103111916 About doing contracting with your staff](/b
 - Parameters for reviews and evaluation, so both can see if it's a worthwhile thing to maintain (also opens space for feedback)
 - An exit plan in the case in which the mentoring sessions do not click.
 
-[[#stanier-effective-manager](/blips/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.
+[[#stanier-effective-manager](/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.
 

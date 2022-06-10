@@ -2,8 +2,8 @@
 title = "Change life and make it better"
 date = "2021-06-19T13:07:00Z"
 
-[extra]
-blips_id = "202106191307"
+[taxonomies]
+tags=[]
 +++
 As grown ups, we tend to take things at face value. We get shaped into them. Resist that, life is not something to accept, but something to embrace.
 

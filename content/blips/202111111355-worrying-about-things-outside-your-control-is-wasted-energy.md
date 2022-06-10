@@ -2,8 +2,8 @@
 title = "Worrying about things outside your control is wasted energy"
 date = "2021-11-11T13:55:00Z"
 
-[extra]
-blips_id = "202111111355"
+[taxonomies]
+tags=[]
 +++
 Focus on fixing the things you have an influence on and stop there, when the rest is up to fate.
 

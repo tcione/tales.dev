@@ -2,10 +2,10 @@
 title = "Post-project decompression"
 date = "2021-05-07T11:37:00Z"
 
-[extra]
-blips_id = "202105071137"
+[taxonomies]
+tags=["stanier-effective-manager"]
 +++
-On [[#stanier-effective-manager](/blips/tags/stanier-effective-manager)], 11th chapter, the author mentions that it's important to give some space to your team after a stressful project (see [1] and [2]).
+On [[#stanier-effective-manager](/tags/stanier-effective-manager)], 11th chapter, the author mentions that it's important to give some space to your team after a stressful project (see [1] and [2]).
 
 Not only I'd agree, but I'd also add that this is a worthwhile concept to carry throughout life: chill after stressful stuff.
 
@@ -22,5 +22,5 @@ On a personal scope:
 
 
 [1]: [202105061222 Scrutiny is unavoidable](/blips/202105061222-scrutiny-is-unavoidable)
-[2]: [202105071125 When there is too much attention on your project (The Eye of Sauron)](/blips/202105071125-when-there-is-too-much-attention-on-your-project--the-eye-of-sauron-)
-[[#stanier-effective-manager](/blips/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.
+[2]: [202105071125 When there is too much attention on your project (The Eye of Sauron)](/blips/202105071125-when-there-is-too-much-attention-on-your-project-(the-eye-of-sauron))
+[[#stanier-effective-manager](/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.

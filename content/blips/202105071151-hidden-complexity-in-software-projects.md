@@ -2,8 +2,8 @@
 title = "Hidden complexity in software projects"
 date = "2021-05-07T11:51:00Z"
 
-[extra]
-blips_id = "202105071151"
+[taxonomies]
+tags=[]
 +++
 Software projects are filled with hidden complexity. The simple act of adding a feature might mess with lots of moving parts. We should strive to uncover this complexity. A good way to go about this is asking questions and rejecting the fear of looking stupid.
 

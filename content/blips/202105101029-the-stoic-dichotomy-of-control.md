@@ -2,8 +2,8 @@
 title = "The Stoic Dichotomy of Control"
 date = "2021-05-10T10:29:00Z"
 
-[extra]
-blips_id = "202105101029"
+[taxonomies]
+tags=[]
 +++
 There are two categories of things in the world:
 1. Things we have control over, such as our inner motivation, desires and actions.

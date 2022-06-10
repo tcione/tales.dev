@@ -2,10 +2,10 @@
 title = "How to keep your stories engaging"
 date = "2021-06-03T08:42:00Z"
 
-[extra]
-blips_id = "202106030842"
+[taxonomies]
+tags=["dicks-storyworthy"]
 +++
-On [[#dicks-storyworthy](/blips/tags/dicks-storyworthy)], chapter 9
+On [[#dicks-storyworthy](/tags/dicks-storyworthy)], chapter 9
 
 The author offers 5 examples that help him on keeping audiences interested:
 
@@ -24,6 +24,6 @@ At the tensest moment, slow down your timing. Savor the moment, that's what your
 ## Crystal balls
 This is when you make a wrong negative visualization, so you keep your audience on their toes. It's similar to the idea of when says "we need to talk". It's possible that you've projected the worse (when usually it's nothing bad and/or special).
 
-Also look at [202106262319 But & Therefore for building narratives](/blips/202106262319-but---therefore-for-building-narratives)
+Also look at [202106262319 But & Therefore for building narratives](/blips/202106262319-but-&-therefore-for-building-narratives)
 
-[[#dicks-storyworthy](/blips/tags/dicks-storyworthy)]: Dicks, Matthew. Storyworthy: Engage, Teach, Persuade, and Change Your Life through the Power of Storytelling. Novato, California: New World Library, 2018.
+[[#dicks-storyworthy](/tags/dicks-storyworthy)]: Dicks, Matthew. Storyworthy: Engage, Teach, Persuade, and Change Your Life through the Power of Storytelling. Novato, California: New World Library, 2018.

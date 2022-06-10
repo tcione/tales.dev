@@ -2,10 +2,10 @@
 title = "The zone of proximal development"
 date = "2021-03-16T08:29:00Z"
 
-[extra]
-blips_id = "202103160829"
+[taxonomies]
+tags=["stanier-effective-manager", "todo"]
 +++
-On [[#stanier-effective-manager](/blips/tags/stanier-effective-manager)], 5th chapter
+On [[#stanier-effective-manager](/tags/stanier-effective-manager)], 5th chapter
 
 Learning happens in three steps:
 1. Something cannot be done
@@ -18,9 +18,9 @@ When it comes to work, we can apply this idea at two levels:
 - Task: always try to delegate tasks that are on the **zone of proximal development** for your staff
 - Career: help people establish steps to achive their goals. The book uses gaming skill trees as an example. Also try to keep steps within the **zone of proximal development**
 
-	[#todo](/blips/tags/todo) Some things to follow up on:
+	[#todo](/tags/todo) Some things to follow up on:
 	- The three steps things reminds me a lot of Feynmans approach to learning
 	- The book mentions Jean Piaget theories, I should probably look into those
 	- Paulo Freire's work is probably relevant here
 
-[[#stanier-effective-manager](/blips/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.
+[[#stanier-effective-manager](/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.

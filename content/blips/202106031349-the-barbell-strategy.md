@@ -2,8 +2,8 @@
 title = "The barbell strategy"
 date = "2021-06-03T13:49:00Z"
 
-[extra]
-blips_id = "202106031349"
+[taxonomies]
+tags=[]
 +++
 The barbell strategy was introduced by Nassim Taleb in a book called "Black Swan". Taleb states that you should allocate 85% of your investments into safe bets, and dedicate the other 15% to bets which have high risk, but high rewards.
 

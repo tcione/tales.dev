@@ -2,8 +2,8 @@
 title = "Further reflections about coaching"
 date = "2021-08-21T14:10:00Z"
 
-[extra]
-blips_id = "202108211410"
+[taxonomies]
+tags=[]
 +++
 Reading [Julian Shapiro's Aug 20th highlights](https://www.julian.com/newsletter), I've came across some points that I'd like to remember about coaching:
 

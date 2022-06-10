@@ -2,10 +2,10 @@
 title = "Nurturing a culture of talks within a company"
 date = "2021-05-11T13:29:00Z"
 
-[extra]
-blips_id = "202105111329"
+[taxonomies]
+tags=["stanier-effective-manager"]
 +++
-On [[#stanier-effective-manager](/blips/tags/stanier-effective-manager)], 14th chapter:
+On [[#stanier-effective-manager](/tags/stanier-effective-manager)], 14th chapter:
 
 The author suggests this to be done in two steps:
 1. Foment team lightning talks (5min)
@@ -26,4 +26,4 @@ As ideas go, the author suggests some topics:
 - Introduction to new tech
 - Cultural and well-being elements
 
-[[#stanier-effective-manager](/blips/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.
+[[#stanier-effective-manager](/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.

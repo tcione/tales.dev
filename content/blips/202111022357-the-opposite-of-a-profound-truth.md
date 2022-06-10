@@ -2,8 +2,8 @@
 title = "The opposite of a profound truth"
 date = "2021-11-02T23:57:00Z"
 
-[extra]
-blips_id = "202111022357"
+[taxonomies]
+tags=[]
 +++
 Is another profound truth. Which is disturbing.
 

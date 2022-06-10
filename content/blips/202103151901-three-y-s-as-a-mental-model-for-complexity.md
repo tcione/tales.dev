@@ -2,10 +2,10 @@
 title = "Three Y's as a mental model for complexity"
 date = "2021-03-15T19:01:00Z"
 
-[extra]
-blips_id = "202103151901"
+[taxonomies]
+tags=["harris-harris-digital-design"]
 +++
-On [[#harris-harris-digital-design](/blips/tags/harris-harris-digital-design)], page 6
+On [[#harris-harris-digital-design](/tags/harris-harris-digital-design)], page 6
 
 Three Y's is a mental model to manage complexity. It is composed of:
 
@@ -14,4 +14,4 @@ Three Y's is a mental model to manage complexity. It is composed of:
 - **Regularity:** seek uniformity among modules
 
 
-[[#harris-harris-digital-design](/blips/tags/harris-harris-digital-design)]: Harris, David Money, and Sarah L. Harris. _Digital Design and Computer Architecture_. Second edition. Amsterdam: Elsevier, 2013. 
+[[#harris-harris-digital-design](/tags/harris-harris-digital-design)]: Harris, David Money, and Sarah L. Harris. _Digital Design and Computer Architecture_. Second edition. Amsterdam: Elsevier, 2013. 

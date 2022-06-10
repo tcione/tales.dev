@@ -2,8 +2,8 @@
 title = "First principle"
 date = "2021-11-04T08:54:00Z"
 
-[extra]
-blips_id = "202111040854"
+[taxonomies]
+tags=[]
 +++
 A first principle is something that cannot be deduced from anything. Different fields have slightly different names for this (i.e., math calls those axioms or postulates).
 

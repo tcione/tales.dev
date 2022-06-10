@@ -2,10 +2,10 @@
 title = "Career progression frameworks"
 date = "2021-05-13T15:09:00Z"
 
-[extra]
-blips_id = "202105131509"
+[taxonomies]
+tags=["stanier-effective-manager"]
 +++
-On [[#stanier-effective-manager](/blips/tags/stanier-effective-manager)], 15th chapter:
+On [[#stanier-effective-manager](/tags/stanier-effective-manager)], 15th chapter:
 
 Career frameworks ensure that career paths within a company are clear and that employees have actionable steps for moving between levels. Here are some common traits of career frameworks:
 
@@ -15,4 +15,4 @@ Career frameworks ensure that career paths within a company are clear and that e
 - Define essential aspects for your company (i.e., "Impact", "Culture", "Expertise", "Influence", etc) as define expectations for these at each level
 	- IMPORTANT: Try to not define too many :)
 
-[[#stanier-effective-manager](/blips/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.
+[[#stanier-effective-manager](/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.

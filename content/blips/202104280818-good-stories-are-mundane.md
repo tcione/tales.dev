@@ -2,10 +2,10 @@
 title = "Good stories are mundane"
 date = "2021-04-28T08:18:00Z"
 
-[extra]
-blips_id = "202104280818"
+[taxonomies]
+tags=["dicks-storyworthy"]
 +++
-On [[#dicks-storyworthy](/blips/tags/dicks-storyworthy)], chapter 2
+On [[#dicks-storyworthy](/tags/dicks-storyworthy)], chapter 2
 
 Good stories are mundane. Also, always tell stories about yourself, never, ever, tell other people's stories. Vacations and drink stories are usually unremarkable, they hold no inherent value. You'll find good material at any place, it's all about perspective and about what you observe in your daily life.
 
@@ -14,4 +14,4 @@ Good stories are mundane. Also, always tell stories about yourself, never, ever,
 
 On how to train yourself to find stories everywhere: [202104280825 Homework for life](/blips/202104280825-homework-for-life)
 
-[[#dicks-storyworthy](/blips/tags/dicks-storyworthy)]: Dicks, Matthew. Storyworthy: Engage, Teach, Persuade, and Change Your Life through the Power of Storytelling. Novato, California: New World Library, 2018.
+[[#dicks-storyworthy](/tags/dicks-storyworthy)]: Dicks, Matthew. Storyworthy: Engage, Teach, Persuade, and Change Your Life through the Power of Storytelling. Novato, California: New World Library, 2018.

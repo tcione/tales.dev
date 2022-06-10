@@ -2,8 +2,8 @@
 title = "The pareto principle"
 date = "2021-06-03T13:53:00Z"
 
-[extra]
-blips_id = "202106031353"
+[taxonomies]
+tags=[]
 +++
 The Pareto principle state that 80% of the consequences comes usually from 20% of the causes. This can be applied in many areas (not sure about real evidence, so don't take this as a corollary).
 
