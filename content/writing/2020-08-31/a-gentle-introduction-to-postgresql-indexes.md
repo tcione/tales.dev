@@ -10,6 +10,8 @@ tags=["software-development"]
 [extra]
 cannonical_url="https://medium.com/heyjobs-tech/a-gentle-introduction-to-postgresql-indexes-fc58a2f5ba96"
 cannonical_url_medium="Heyjobs Tech Blog"
+thumbnail="https://miro.medium.com/max/1400/1*0X-pNeFVsj_4w0nC1qKC8Q.jpeg"
+thumbnail_alt="Files ordered by color in a shelf"
 +++
 
 {{

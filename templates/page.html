@@ -25,9 +25,11 @@
     "@context": "http://schema.org/",
     "@type": "Organization",
     "name": "Tales Cione",
-    "logo": "https://placekitten.com/300/400"
+    "logo": "{{ config.base_url }}/favicons/favicon-1024x1024.png"
   },
-  "image": "https://placekitten.com/300/400",
+  {% if page and page.extra.thumbnail %}
+    "image": "{{ page.extra.thumbnail }}",
+  {% endif %}
   "mainEntityOfPage": "True",
   "author": {
     "@context": "http://schema.org/",

@@ -29,7 +29,7 @@
   <meta property="og:title" content="{% block meta_og_title %}{{ config.title }}{% endblock meta_og_title %}" />
   <meta property="og:description" content="{% block meta_og_description %}{{ config.description }}{% endblock meta_og_description %}" />
 
-  {% if page and page.extra and page.extra.thumbnail %}
+  {% if page and page.extra.thumbnail %}
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="og:image" content="{{ page.extra.thumbnail }}" />
     <meta name="twitter:image:alt" content="{{ page.extra.thumbnail_alt }}" />
@@ -45,7 +45,11 @@
 
   {% if current_url %}
     <meta property="og:url" content="{{ current_url }}" />
-    <link rel="canonical" href="{{ current_url }}">
+    {% if page and page.extra.cannonical_url %}
+      <link rel="canonical" href="{{ page.extra.cannonical_url }}">
+    {% else %}
+      <link rel="canonical" href="{{ current_url }}">
+    {% endif %}
   {% endif %}
 
   <meta property="og:site_name" content="tales.dev" />

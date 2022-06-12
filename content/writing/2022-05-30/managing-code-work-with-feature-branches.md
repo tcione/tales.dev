@@ -10,6 +10,8 @@ tags=["software-development"]
 [extra]
 cannonical_url="https://medium.com/heyjobs-tech/managing-code-work-with-feature-branches-c08070065d5d"
 cannonical_url_medium="Heyjobs Tech Blog"
+thumbnail="https://miro.medium.com/max/1400/1*lzATKjXvZ9IE5Jq3UknSig.jpeg"
+thumbnail_alt="Multiple maps on top of each other"
 +++
 
 {{
