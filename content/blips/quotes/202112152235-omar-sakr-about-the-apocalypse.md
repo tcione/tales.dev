@@ -1,6 +1,6 @@
 +++
-title = "Sakr - About the apocalypse"
-date = "2022-06-12T17:39:59Z"
+title = "Omar Sakr - About the apocalypse"
+date = "2021-12-15T22:35:00Z"
 
 [taxonomies]
 tags=[]
