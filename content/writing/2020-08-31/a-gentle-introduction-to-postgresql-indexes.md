@@ -193,5 +193,3 @@ So if you’d like to dig deeper, here are some valuable resources:
 *   [A series of articles that take a thorough look at PostgreSQL indexes](https://habr.com/en/company/postgrespro/blog/441962/)
 
 I hope you’ve found this article helpful. Take care!
-
-[Some rights reserved](https://creativecommons.org/licenses/by-sa/4.0/)

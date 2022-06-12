@@ -27,6 +27,9 @@
   --c-blue: HSL(220, 82%, 56%);
   --c-blue-d1: HSL(220, 82%, 30%);
   --c-blue-l1: HSL(220, 82%, 64%);
+  --c-yellow: HSL(51, 88%, 56%);
+  --c-yellow-d1: HSL(51, 88%, 25%);
+  --c-yellow-l1: HSL(51, 88%, 75%);
 }
 
 *, *:after, *:before {
@@ -54,7 +57,12 @@ body {
 code {
   display: block;
   max-width: 100%;
-  overflow: auto;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
 }
 
 h1 {
@@ -77,6 +85,16 @@ a {
   }
 }
 
+hr {
+  margin-top: var(--size400);
+  margin-bottom: var(--size400);
+  margin-left: 20%;
+  margin-right: 20%;
+  color: #CCCCCC;
+}
+
+
 main {
   margin-bottom: var(--size1000);
 }
+

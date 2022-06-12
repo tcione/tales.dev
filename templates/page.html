@@ -42,12 +42,6 @@
   {% set parent = get_section(path=page.ancestors[1]) %}
   <article class="c-article">
     <div class="u-wrapper">
-      {% if page.extra.cannonical_url %}
-        <div class="c-notification">
-          <p>This text was originally published in <a href="{{page.extra.cannonical_url}}" title="This text on {{page.extra.cannonical_url_medium}}">{{page.extra.cannonical_url_medium}}</a>. Please pay a visit there if you have the chance :)</p>
-        </div>
-      {% endif %}
-
       <header>
         {% if page.date %}
           <time datetime="{{ page.date }}">{{ page.date | date(format="%Y'%b %d") }}</time>
@@ -63,6 +57,12 @@
           </ul>
         {% endif %}
       </header>
+
+      {% if page.extra.cannonical_url %}
+        <div class="c-notification">
+          <p>This text was originally published in <a href="{{page.extra.cannonical_url}}" title="This text on {{page.extra.cannonical_url_medium}}">{{page.extra.cannonical_url_medium}}</a>. Please pay a visit there if you have the chance :)</p>
+        </div>
+      {% endif %}
 
       <div>{{ page.content | safe }}</div>
     </div>

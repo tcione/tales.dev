@@ -99,10 +99,10 @@ If we’re using a long-lived branch, chances are that what we’re working on o
 
 Oof, that was a lot. Collaboration can be one of the more challenging aspects of software development, and it tends to get more complex as the team and software grows. Hopefully, this article has offered applicable ways to help you and your team to manage the ever-growing complexity of your coding stuff :)
 
+---
+
 \[1\]: What is a good commitment message and how to maintain a healthy git history are beyond the scope of this article. HOWEVER, I do encourage the watching of [“A Branch in Time” by Tekin Süleyman in 2019’s Rubyconf AU](https://www.youtube.com/watch?v=1NoNTqank_U)
 
 \[2\]: [As defined by Martin Fowler](https://martinfowler.com/bliki/DefinitionOfRefactoring.html), meaning there will be no changes in input and output.
 
 \[3\]: Huge PRs tend to be overwhelming. This encourages the reviewer to yield by typing “LGTM”
-
-[Some rights reserved](https://creativecommons.org/licenses/by-sa/4.0/)

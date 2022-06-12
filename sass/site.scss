@@ -2,6 +2,12 @@
 @import '_base';
 @import '_utilities';
 
+@mixin media-query-desktop {
+  @media all and (min-width: 52em) {
+    @content;
+  }
+}
+
 .c-main-header {
   nav {
     padding-top: var(--size300);
@@ -39,17 +45,27 @@
   a {
     position: relative;
     display: block;
+    text-decoration: none;
+
+    span {
+      text-decoration: underline;
+    }
   }
 
   time {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translate3d(-115%, -40%, 0);
+    display: block;
     font-size: var(--font-size-xs);
-    color: #999999;
+    color: #777777;
     font-weight: 700;
     font-family: monospace;
+    text-decoration: none;
+
+    @include media-query-desktop {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate3d(-115%, -40%, 0);
+    }
   }
 }
 
@@ -85,7 +101,9 @@
 
   p,
   ul,
-  ol {
+  ol,
+  figure,
+  .c-notification {
     margin-bottom: var(--size200);
   }
 
@@ -94,10 +112,14 @@
     line-height: 1.5;
   }
 
-  ul, ol {
+  ul:not(.u-reset-list), ol {
     margin-top: 0;
-    margin-left: 0;
-    padding-left: 0;
+    padding-left: 2rem;
+
+    @include media-query-desktop {
+      margin-left: 0;
+      padding-left: 0;
+    }
   }
 
   img {
@@ -105,9 +127,31 @@
     height: auto;
   }
 
+  &__img {
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+
+    figcaption {
+      font-size: var(--font-size-s);
+      color: #555555;
+    }
+  }
 }
 
 .c-section-intro { margin-bottom: var(--size300); }
+
+.c-notification {
+  border: 1px solid var(--c-yellow-d1);
+  background: var(--c-yellow-l1);
+  padding: var(--size100) var(--size100);
+  color: var(--c-yellow-d1);
+  font-size: var(--font-size-s);
+
+  p {
+    margin: 0;
+  }
+}
 
 .c-pagination {
   margin-top: var(--size500);
@@ -133,17 +177,27 @@
 }
 
 .p-index {
-  h1 {
-    font-size: var(--font-size-l);
+  h1, h2 {
+    margin-bottom: var(--size100);
+
+    @include media-query-desktop {
+      margin-bottom: var(--size50);
+    }
+  }
+
+  h1 { font-size: var(--font-size-l); }
+  p {
+    margin-top: 0;
     margin-bottom: var(--size50);
   }
 
-  h2,
-  p { margin-bottom: var(--size50); }
+  .c-articles li {
+    margin-bottom: var(--size200);
 
-  p { margin-top: 0; }
-
-  .c-articles li { margin-bottom: var(--size100); }
+    @include media-query-desktop {
+      margin-bottom: var(--size100);
+    }
+  }
 }
 
 .p-tags {
