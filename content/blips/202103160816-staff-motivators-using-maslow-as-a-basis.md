@@ -5,7 +5,6 @@ date = "2021-03-16T08:16:00Z"
 [taxonomies]
 tags=["stanier-effective-manager"]
 +++
-
 On [[#stanier-effective-manager](/tags/stanier-effective-manager)], 5th chapter
 
 According to [[#stanier-effective-manager](/tags/stanier-effective-manager)], motivation can be coded using [Maslow's hierarchy of needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs). From the bottom to the top:

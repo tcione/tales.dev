@@ -17,3 +17,4 @@ At this point I'm unsure about how non-people related work fits in this producti
 More on influencing decision: [202105051212 Ways to expand your influence as a manager](/blips/202105051212-ways-to-expand-your-influence-as-a-manager)
 
 [[#stanier-effective-manager](/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.
+

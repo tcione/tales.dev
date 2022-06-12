@@ -1,6 +1,6 @@
 +++
 title = "Feynman - Study hard, but irreverently"
-date = "2022-06-10T23:40:19Z"
+date = "2022-06-12T17:39:59Z"
 
 [taxonomies]
 tags=[]

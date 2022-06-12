@@ -13,5 +13,5 @@ Three Y's is a mental model to manage complexity. It is composed of:
 - **Modularity:** have pieces with well defined function and interface
 - **Regularity:** seek uniformity among modules
 
+[[#harris-harris-digital-design](/tags/harris-harris-digital-design)]: Harris, David Money, and Sarah L. Harris. _Digital Design and Computer Architecture_. Second edition. Amsterdam: Elsevier, 2013.
 
-[[#harris-harris-digital-design](/tags/harris-harris-digital-design)]: Harris, David Money, and Sarah L. Harris. _Digital Design and Computer Architecture_. Second edition. Amsterdam: Elsevier, 2013. 

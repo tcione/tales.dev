@@ -15,3 +15,4 @@ The manager's tools of trade are **the calendar**, **the todo list**, **the emai
 - **Carry with you something to take notes** whenever possible and use it
 
 [[#stanier-effective-manager](/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.
+

@@ -24,3 +24,4 @@ When it comes to work, we can apply this idea at two levels:
 	- Paulo Freire's work is probably relevant here
 
 [[#stanier-effective-manager](/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.
+

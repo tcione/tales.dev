@@ -67,7 +67,7 @@ Bottom = left
 ```
 
 
-## Hexadecimal 
+## Hexadecimal
 
 Numbers with base 16. The thing is, binary numbers can get a bit long, so we can use hexadecimals to shorten things. The notation is the following:
 - From 0 to 9, we use the same digits as in base 10
@@ -83,4 +83,5 @@ $$3EF_{16} = (3 * 16^2) + ... + (15 * 16^0) = 1007_{10}$$
 
 If you need further examples, explanations or exercises, those can be found at [[#harris-harris-digital-design](/tags/harris-harris-digital-design)], chapter 1.
 
-[[#harris-harris-digital-design](/tags/harris-harris-digital-design)]: Harris, David Money, and Sarah L. Harris. _Digital Design and Computer Architecture_. Second edition. Amsterdam: Elsevier, 2013. 
+[[#harris-harris-digital-design](/tags/harris-harris-digital-design)]: Harris, David Money, and Sarah L. Harris. _Digital Design and Computer Architecture_. Second edition. Amsterdam: Elsevier, 2013.
+

@@ -3,11 +3,9 @@ title = "Thinking in layers"
 date = "2022-01-11T22:57:00Z"
 
 [taxonomies]
-tags=["julian-defaults", "something", "somethingelse"]
+tags=["julian-defaults"]
 +++
 [[#julian-defaults](/tags/julian-defaults)] proposes that company value comes from how deep it is within the layers stack (as opposed to thinking value comes directly from [202201112248 Network effects](/blips/202201112248-network-effects)).
-
-[#something](/tags/something) [#something](/tags/something)else
 
 Using Apple as an example
 - its walled garden increases switching costs ([202201112255 User costs](/blips/202201112255-user-costs))

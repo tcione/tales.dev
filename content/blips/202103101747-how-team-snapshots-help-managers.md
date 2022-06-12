@@ -17,3 +17,4 @@ Having a team snapshot is useful to pin point discussion and improvement topics.
 Snapshots are constructed by observing and having conversations with all sides here described.
 
 [[#stanier-effective-manager](/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.
+

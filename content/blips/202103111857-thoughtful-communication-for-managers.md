@@ -15,3 +15,4 @@ One should be thoughtful about communication. Remember to:
 - Be aware of your emotions and adjust accordingly (i.e., ask for more time before a meeting or make a disclosure of your mental state beforehand)
 
 [[#stanier-effective-manager](/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.
+

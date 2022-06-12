@@ -15,3 +15,4 @@ It is good practice to keep shared notes of the meetings with explored topics an
 
 
 [[#stanier-effective-manager](/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.
+

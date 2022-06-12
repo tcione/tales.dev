@@ -19,3 +19,4 @@ As a personal note, I'd like to add that it is also important to ensure that you
 [202103101846 A manager's outcome](/blips/202103101846-a-manager's-outcome) Expands on the idea by focusing on the outcome aspect.
 
 [[#stanier-effective-manager](/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.
+

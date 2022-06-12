@@ -15,3 +15,4 @@ There is the question on how to create good upwards communication. It is a good 
 - Create weekly summaries with progress, problems, plans and how your staff (people in the book) are fairing
 
 [[#stanier-effective-manager](/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.
+

@@ -18,3 +18,4 @@ Also remember not to:
 - Take tasks back from people, **you must support them**
 
 [[#stanier-effective-manager](/tags/stanier-effective-manager)]: Stanier, Dr. James. _Become an Effective Software Engineering Manager_. 1st ed. S.l.: Pragmatic Bookshelf, 2020.
+
