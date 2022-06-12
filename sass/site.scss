@@ -99,6 +99,12 @@
     margin-left: 0;
     padding-left: 0;
   }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
 }
 
 .c-section-intro { margin-bottom: var(--size300); }
