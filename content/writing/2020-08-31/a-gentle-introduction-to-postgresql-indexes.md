@@ -79,14 +79,14 @@ It’s a type of index that’s great for comparison operators (`< <= = >= > BET
 
 Since this is Postgres’ default access method, to create a B-Tree index, one must simply create it:
 
-```
-CREATE INDEX index\_name ON table\_name(column\_name, …);
+```sql
+CREATE INDEX index_name ON table_name(column_name, …);
 ```
 
 For the sake of being thorough, let’s also see how to explicitly create the index:
 
-```
-CREATE INDEX index\_name ON table\_name USING BTREE (column\_name, …);
+```sql
+CREATE INDEX index_name ON table_name USING BTREE (column_name, …);
 ```
 
 ### Hash
@@ -95,8 +95,8 @@ Hash indexes store the indexes, well, using hashes, and their usage is limited t
 
 Creating a hash index is similar to creating a B-Tree index as well:
 
-```
-CREATE INDEX index\_name ON table\_name USING HASH (column\_name, …);
+```sql
+CREATE INDEX index_name ON table_name USING HASH (column_name, …);
 ```
 
 That said, it’s important to mention that **hash indexes are not recommended for those using a PostgreSQL 9.x and below**. The reason for that is because they are not crash-safe in those versions, meaning that if your RDBMS crashes for any reason, the hash indexes will have to be recreated.
@@ -113,8 +113,8 @@ Now, how do I create one of those? Differently from Hash and B-Tree indexes, thi
 2.  You must make sure that this new column is always up to date with the source column (if there is a source column, of course). (From PostgreSQL 12 onwards you can use [Generated Columns](https://www.postgresql.org/docs/12/ddl-generated-columns.html) for that
 3.  Now you can finally create your GIN index:
 
-```
-CREATE INDEX index\_name ON table\_name USING GIN (column\_name);
+```sql
+CREATE INDEX index_name ON table_name USING GIN (column_name);
 ```
 
 ### GiST
@@ -138,8 +138,8 @@ As creational steps go, GiST is also similar to GIN:
 2.  You must make sure this new column is always up to date
 3.  You can run the following code to create the index:
 
-```
-CREATE INDEX index\_name ON table\_name USING GIST (column\_name);
+```sql
+CREATE INDEX index_name ON table_name USING GIST (column_name);
 ```
 
 On a side note, the GiST index can also work well for geospatial data types, but I won’t get into that part. If you wish to, a LOT can be read [here](https://habr.com/ru/company/postgrespro/blog/444742/).
@@ -152,8 +152,8 @@ So getting more technical again, this type of index is suitable for [quadtrees](
 
 Since I don’t fully understand this index myself, I’ll just leave an example SQL for its creation and then refer to 2 extensive articles in which you can get very familiar with this access method:
 
-```
-CREATE INDEX index\_name ON table\_name USING SPGIST (column\_name);
+```sql
+CREATE INDEX index_name ON table_name USING SPGIST (column_name);
 ```
 
 And the articles:
@@ -169,8 +169,8 @@ Columns that will only increase in value (ids or timestamps) are good candidates
 
 Creating BRIN indexes is quite straightforward:
 
-```
-CREATE INDEX index\_name ON table\_name USING BRIN (column\_name);
+```sql
+CREATE INDEX index_name ON table_name USING BRIN (column_name);
 ```
 
 ## And that’s a wrap!

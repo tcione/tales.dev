@@ -54,15 +54,46 @@ body {
   background: #CCCCCC;
 }
 
-code {
+pre {
   display: block;
   max-width: 100%;
-  overflow-x: auto;
+  padding: var(--size150);
+  overflow: auto;
   white-space: pre-wrap;
-  white-space: -moz-pre-wrap;
-  white-space: -pre-wrap;
-  white-space: -o-pre-wrap;
   word-wrap: break-word;
+}
+
+// The line numbers already provide some kind of left/right padding
+pre[data-linenos] {
+  padding: var(--size150) 0;
+}
+pre table td {
+  padding: 0;
+}
+// The line number cells
+pre table td:nth-of-type(1) {
+  text-align: center;
+  user-select: none;
+}
+pre mark {
+  // If you want your highlights to take the full width.
+  display: block;
+  // The default background colour of a mark is bright yellow
+  background-color: rgba(254, 252, 232, 0.9);
+}
+pre table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+pre td:first-child {
+  padding-right: var(--size150);
+  padding-left: var(--size150);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+pre td:last-child {
+  padding-left: var(--size150);
 }
 
 h1 {
