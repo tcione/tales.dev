@@ -16,7 +16,7 @@ Outside of work I hang out with my family (wife, baby and [dog](https://pbs.twim
 
 If you are curious on how it would be work with me, check out ["Me as a manager"](/about/me-as-a-manager). If you'd like to chat a bit, you can reach out through the following places:
 
-- hi@\<this domain\>
+- hi@tales.dev
 - [Twitter](https://twitter.com/tcione)
 - [LinkedIn](https://www.linkedin.com/in/tcione)
 
