@@ -1,7 +1,6 @@
 +++
 title = "Me as a manager"
-description = ""
-paginate_by = 1
+description = "Know the things I value in and expect from a team and also the things you can expect from me."
 updated_at = '2022-06-17T22:15:00'
 +++
 

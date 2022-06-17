@@ -66,6 +66,9 @@
             <li {% if current_path and '/' == current_path %}class="current"{% endif %}>
               <a href="{{ config.base_url }}" title="Back to home page">tales.dev</a>
             </li>
+            <li {% if current_path and '/about/' in current_path %}class="current"{% endif %}>
+              <a href="{{ get_url(path="@/about/_index.md", trailing_slash=true) }}" title="Know more about me">about</a>
+            </li>
             <li {% if current_path and '/writing/' in current_path %}class="current"{% endif %}>
               <a href="{{ get_url(path="@/writing/_index.md", trailing_slash=true) }}" title="Check out my posts">writing</a>
             </li>

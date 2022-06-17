@@ -1,0 +1,51 @@
+{% extends "site.html" %}
+
+{% block body_classes %}p-article{% endblock %}
+
+{% block title %}{{ section.title }} | Tales Cione{% endblock %}
+{% block meta_og_title %}{{ section.title }} | Tales Cione{% endblock %}
+
+{% block description %}{{ section.description }}{% endblock %}
+{% block meta_og_description %}{{ section.description }}{% endblock %}
+
+{% block structured_data %}
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Person",
+    "name": "Tales Cione",
+    "jobTitle": "Engineering Manager",
+    "url": "https://tales.dev",
+    "knowsLanguage": [
+      {
+        "@context": "http://schema.org/",
+        "@type": "Language",
+        "name": "Portuguese",
+        "alternateName": "pt"
+      },
+      {
+        "@context": "http://schema.org/",
+        "@type": "Language",
+        "name": "English",
+        "alternateName": "en"
+      }
+    ],
+    "sameAs": [
+      "https://twitter.com/tcione",
+      "https://www.linkedin.com/in/tcione"
+    ]
+  }
+</script>
+{% endblock %}
+
+{% block content %}
+  <article class="c-article">
+    <div class="u-wrapper">
+      <header>
+        <h1>{{ section.title }}</h1>
+      </header>
+
+      <div>{{ section.content | safe }}</div>
+    </div>
+  </article>
+{% endblock content %}
