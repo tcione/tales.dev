@@ -26,4 +26,4 @@ If you are curious on how it would be work with me, check out ["Me as a manager"
 
 ---
 
-[1]: Although it's writing like the English word, it is taken from the Greek polymath [Thales of Miletus](https://en.wikipedia.org/wiki/Thales_of_Miletus). "Ta" is pronounced as in "Taylor" and "les" is pronounced as in "lesson".
+[1]: Although it's writing like the English word, it is taken from the Greek polymath [Thales of Miletus](https://en.wikipedia.org/wiki/Thales_of_Miletus).
