@@ -16,9 +16,13 @@ Outside of work I hang out with my family (wife, baby and [dog](https://pbs.twim
 
 If you are curious on how it would be work with me, check out ["Me as a manager"](/about/me-as-a-manager). If you'd like to chat a bit, you can reach out through the following places:
 
-- hi@tales.dev
-- [Twitter](https://twitter.com/tcione)
-- [LinkedIn](https://www.linkedin.com/in/tcione)
+<address>
+  <ul>
+    <li>hi@[this domain]</li>
+    <li><a href="https://twitter.com/tcione" title="I mostly tweet in portuguese. DMs are open, though." target="_blank" rel="noopener">Twitter</a></li>
+    <li><a href="https://www.linkedin.com/in/tcione" title="LinkedIn is a weird network, but if that's your thing, let's go" target="_blank" rel="noopener">LinkedIn</a></li>
+  </ul>
+</address>
 
 ---
 
