@@ -1,12 +1,12 @@
 +++
-title = "As you've probably noticed by now,"
+title = "About me"
 description = "Know a bit more about myself."
 template = "about.html"
 +++
 
 my name is Tales<sup>1</sup>. Nice to have you here :). I've been living in Berlin for the past few years, but I'm originally from São Paulo (Brazil).
 
-I'm currently the Engineering Manager for the Recruiter Portal team at [HeyJobs](https://www.heyjobs.co/en-de). Previously I've worked as backend developer for the same company.
+I'm currently the Engineering Manager for the Recruiter Portal team at [HeyJobs](https://www.heyjobs.co/en-de) – started as a backend developer and got promoted in Jan. of 2021.
 
 Before that, I've worked for 5 years as the tech lead (and co-founder) at a software consultancy called [Levante](https://web.archive.org/web/20170829170647/http://42i.com.br/).
 
