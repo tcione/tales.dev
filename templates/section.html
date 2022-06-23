@@ -13,8 +13,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Blog",
-  "blogPost": [
-  {% for page in paginator.pages %}
+  "blogPost": [{% for page in paginator.pages %}
     {
       "@context": "https://schema.org",
       "@type": "BlogPosting",
@@ -38,8 +37,7 @@
         "@type": "Person",
         "name": "Tales Cione"
       }
-    }
-  {% endfor %}
+    }{% if loop.last == false %},{% endif %}{% endfor %}
   ],
   "abstract": "{{ section.title }}: {{ section.description }}",
   "author": {
